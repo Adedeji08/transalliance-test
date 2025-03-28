@@ -1,2 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gayathri:wght@100;400;700&display=swap");
+
+
+.my-gradient {
+  background: rgb(60, 59, 50);
+  background: -moz-linear-gradient(
+    108deg,
+    rgba(60, 59, 50, 1) 14%,
+    rgba(15, 29, 64, 1) 23%,
+    rgba(15, 29, 64, 1) 86%,
+    rgba(67, 49, 50, 1) 89%
+  );
+  background: -webkit-linear-gradient(
+    108deg,
+    rgba(60, 59, 50, 1) 14%,
+    rgba(15, 29, 64, 1) 23%,
+    rgba(15, 29, 64, 1) 86%,
+    rgba(67, 49, 50, 1) 89%
+  );
+  background: linear-gradient(
+    108deg,
+    rgba(60, 59, 50, 1) 14%,
+    rgba(15, 29, 64, 1) 23%,
+    rgba(15, 29, 64, 1) 86%,
+    rgba(67, 49, 50, 1) 89%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3c3b32",endColorstr="#433132",GradientType=1);
+}

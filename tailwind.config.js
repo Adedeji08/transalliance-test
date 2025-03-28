@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {},
+export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
+export const theme = {
+  extend: {
+    fontFamily: {
+      gayathri: ["Gayathri", "sans-serif"],
+      dmSans: ["DM Sans", "sans-serif"],
+    },
   },
-  plugins: [],
-}
+};
+export const plugins = [];
