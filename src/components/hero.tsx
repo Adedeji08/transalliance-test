@@ -3,7 +3,7 @@ import Laptop from "../assets/images/lapt.png";
 import bgImage from "../assets/images/Travel.png";
 const Hero = () => {
   return (
-    <section className="container lg:pb-48 pt-20 mt-[80px] mx-8 lg:flex items-stretch justify-center gap-10 md:gap-32 ">
+    <section className="my-gradient lg:pb-48 pt-20 mt-[80px] lg:flex items-stretch justify-center gap-10 md:gap-32">
       <div className="max-w-2xl">
         <p className="text-blue-300 mb-4 bg-gradient-to-r from-[#F27405] to-[#D3BD00] bg-clip-text text-transparent font-dmSans">
           Simplified cross-border payments
