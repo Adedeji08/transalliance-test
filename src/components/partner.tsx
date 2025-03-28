@@ -9,7 +9,7 @@ import RakBank from "../assets/banks/rakBank.png";
 
 const partner = () => {
   return (
-    <div className="bg-white/20 backdrop-blur-md shadow-2xl rounded-lg px-4 pt-16 pb-20 flex flex-col flex-wrap justify-center items-start border-2 mx-24 w-full max-w-[80%] gap-6 z-30 absolute -bottom-[14rem]">
+    <div className="bg-white/20 backdrop-blur-md shadow-2xl rounded-lg px-4 pt-10 pb-20 flex flex-col flex-wrap justify-center items-start border-2 mx-auto -mb-28  w-[70%] gap-6 z-30 absolute -bottom-[20rem]">
       <h1 className="px-8 text-2xl max-w-[450px]">Send and Receive Money from all over with ease.</h1>
       <div className="flex justify-center items-center">
         <img className="h-20 w-36 object-cover" src={Cross} alt="RedCross" />

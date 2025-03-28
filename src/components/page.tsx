@@ -15,19 +15,6 @@ import Footer from "./footer";
 const TransalliancePage: React.FC = () => {
   return (
     <div className="min-h-screen">
-      {/* Navigation */}
-      {/* <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold">Transalliance Group.</div>
-        <div className="hidden md:flex space-x-8">
-          {['Home', 'About', 'Solutions', 'News & Insights', 'Contact Us'].map((item) => (
-            <a key={item} href="#" className="hover:text-blue-300">{item}</a>
-          ))}
-        </div>
-        <button className="bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded-full font-medium">
-          Get Started
-        </button>
-      </nav> */}
-
       {/* Hero Section */}
       <Hero />
       <About />
