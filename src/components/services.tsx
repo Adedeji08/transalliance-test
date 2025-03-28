@@ -9,7 +9,7 @@ import Img from "../assets/services/image.png";
 
 const services = () => {
   return (
-    <section className="flex justify-center py-24 px-16 gap-48 bg-gray-200">
+    <section className="lg:flex justify-center py-24 px-16 gap-48 bg-gray-200">
       <div className="flex flex-col gap-8 pt-10">
         <h1 className="text-2xl">Our Services</h1>
         <div className="flex flex-col gap-10">

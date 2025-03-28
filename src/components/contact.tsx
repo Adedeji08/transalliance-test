@@ -4,7 +4,7 @@ import ContactImg from "../assets/images/image.contact.png";
 
 const contact = () => {
   return (
-    <section className="container bg-[#ddd] flex justify-center items-center gap-20 mx-auto px-6 py-20">
+    <section className="container bg-[#ddd] lg:flex justify-center items-center gap-20 mx-auto px-6 py-20">
       <div>
         <img src={ContactImg} alt="" />
       </div>

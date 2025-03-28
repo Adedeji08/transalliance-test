@@ -46,7 +46,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full mt-3 border lg:border-none newNav px-8 lg:px-[8rem] new_ff z-50 transition-all duration-300 ease-linear overflow-hidden bg-transparent ${
+      className={`lg:fixed top-0 w-full mt-3 border lg:border-none newNav px-8 lg:px-[8rem] new_ff z-50 transition-all duration-300 ease-linear overflow-hidden bg-transparent ${
         hasShadow ? "shadow-md bg-white" : ""
       }`}
       style={{

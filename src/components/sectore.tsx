@@ -10,12 +10,12 @@ const sectore = () => {
     <section className="py-20">
       <div className="flex flex-wrap justify-center items-start flex-col px-16">
         <h1 className="font-medium text-3xl text-[#1D2939]">Sectors we serve</h1>
-        <p className="max-w-[600px] mt-10 text-[#1D2939] opacity-65">
+        <p className="lg:max-w-[600px] mt-10 text-[#1D2939] opacity-65">
           We simplify the complexities of cross-border payments in some of the
           world’s most demanding sectors. Learn more about who we serve and how
           we add value below.
         </p>
-        <div className="flex flex-wrap justify-center items-stretch gap-y-16 gap-x-52 py-20">
+        <div className="lg:flex flex-wrap justify-center items-stretch gap-y-16 gap-x-52 py-20">
           <div className="w-[30rem] rounded-3xl relative">
             <img src={ImageOne} alt="" />
             <span className="absolute bottom-32 -right-20 flex flex-col items-start justify-between px-6 py-2 w-64 rounded-2xl bg-white/60 shadow-lg text-[#1D2939] font-medium backdrop-blur-4xl bg-opacity-50">
