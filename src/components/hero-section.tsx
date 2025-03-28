@@ -7,7 +7,7 @@ const HeroSection = () => {
       <section className="grid grid-cols-1 md:grid-cols-2 items-end min-h-[60vh] relative mt-36">
         
         {/* Left Content */}
-        <div className="bg-green-600 text-white p-20">
+        <div className="bg-green-600 text-white p-20 font-dmSans">
           <h2 className="text-3xl font-bold text-gray-900">
             The human-powered <br /> payments network
           </h2>

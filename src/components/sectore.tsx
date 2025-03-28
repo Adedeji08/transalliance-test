@@ -8,8 +8,8 @@ import ImageFour from "../assets/images/image4.sector.png";
 const sectore = () => {
   return (
     <section className="py-20">
-      <div className="flex flex-wrap justify-center items-start flex-col px-16">
-        <h1 className="font-medium text-3xl text-[#1D2939]">Sectors we serve</h1>
+      <div className="flex flex-wrap justify-center items-start flex-col px-16 font-dmSans">
+        <h1 className="font-medium text-3xl text-[#1D2939] font-gayathri">Sectors we serve</h1>
         <p className="lg:max-w-[600px] mt-10 text-[#1D2939] opacity-65">
           We simplify the complexities of cross-border payments in some of the
           world’s most demanding sectors. Learn more about who we serve and how

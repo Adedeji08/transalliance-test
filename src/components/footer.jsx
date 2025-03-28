@@ -1,8 +1,22 @@
 import React from "react";
 
+import Logo from "../assets/images/logo.svg";
+
 const footer = () => {
   return (
-    <footer className="bg-blue-900 py-12">
+    <footer className="bg-blue-900 py-12 font-dmSans flex justify-center items-center px-10">
+      <div className="flex justify-start border-2 border-red-600 items-start flex-col gap-10">
+        <div>
+          <img src={Logo} alt="Logo" />
+          <h1 className="text-4xl font-gayathri">Transalliance Group.</h1>
+        </div>
+        <button className="flex items-center ml-24 -mt-4 justify-between px-6 py-4 w-64 rounded-2xl bg-[#8A8A8A4D]  shadow text-white font-medium backdrop-blur-4xl  border border-[#fff] font-dmSans">
+          <span>Contact Us</span>
+          <span className="w-7 h-7 flex items-center justify-center rounded-full bg-black text-green-400 border border-gray-500 text-lg">
+            &gt;
+          </span>
+        </button>
+      </div>
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>

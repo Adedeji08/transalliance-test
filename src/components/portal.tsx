@@ -20,11 +20,11 @@ const portal = () => {
 
       {/* Right Image Section */}
       <div className="bg-green-600 flex flex-col justify-center items-start py-10 px-10 col-span-2">
-        <h2 className="text-3xl font-bold text-gray-900">
+        <h2 className="text-3xl font-bold text-gray-900 font-gayathri">
           One portal,
           <br /> every transaction
         </h2>
-        <ul className="text-gray-800 mt-4 list-disc">
+        <ul className="text-gray-800 mt-4 list-disc font-dmSans">
           <p className="max-w-[300px]">Our customer portal provides an intuitive interface to access all of
           our services via a simple, single login.</p>
           <li>Real-time, 24/7, 365 transaction tracking</li>

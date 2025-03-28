@@ -11,7 +11,7 @@ const services = () => {
   return (
     <section className="lg:flex justify-center py-24 px-16 gap-48 bg-gray-200">
       <div className="flex flex-col gap-8 pt-10">
-        <h1 className="text-2xl">Our Services</h1>
+        <h1 className="text-2xl font-gayathri">Our Services</h1>
         <div className="flex flex-col gap-10">
           <div className="flex flex-col items-start justify-center gap-4">
             <img
@@ -19,7 +19,7 @@ const services = () => {
               src={Partner}
               alt=""
             />
-            <div>
+            <div className="font-dmSans">
               <h1 className="font-[700] text-2xl">
                 We are your trusted partner
               </h1>
@@ -47,7 +47,7 @@ const services = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="font-dmSans">
             <img
               className="bg-green-600 rounded-md p-1 h-16 w-16 object-fit"
               src={Security}
@@ -65,7 +65,7 @@ const services = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="font-dmSans">
             <img
               className="bg-green-600 rounded-md p-1 h-16 w-16 object-fit"
               src={Expertise}
@@ -82,8 +82,8 @@ const services = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-[500px] flex flex-col items-start gap-4">
-        <h1 className="font-[600] text-4xl max-w-[500px]">
+      <div className="max-w-[500px] flex flex-col items-start gap-4 font-dmSans">
+        <h1 className="font-[600] text-4xl max-w-[500px] font-gayathri">
           The Transalliance Group. difference
         </h1>
         <p className="text-xl opacity-60">
