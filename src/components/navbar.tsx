@@ -45,11 +45,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className="fixed top-0 w-full mt-3 border lg:border-none newNav px-8 lg:px-[8rem] new_ff z-50 transition-all duration-300 ease-linear overflow-hidden"
+      className="fixed top-0 w-full mt-3 border lg:border-none newNav px-8 lg:px-[8rem] new_ff z-50 transition-all duration-300 ease-linear overflow-hidden bg-transparent"
       style={{
         height: height,
         alignItems: height === "80px" ? "center" : "start",
-        backgroundColor: height === "80px" ? "#F9FAFBCC" : "#ffffff",
+        backgroundColor: height === "80px" ? "transparent" : "#F9FAFBCC",
       }}
     >
       <div className="flex items-center justify-between w-full">
