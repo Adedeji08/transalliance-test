@@ -5,9 +5,9 @@ import Grid from "./grid";
 
 const about = () => {
   return (
-    <section className="flex justify-center items-center flex-col">
+    <section className="flex justify-center lg:mt-32 mt-[33rem] items-center flex-col">
       <Partner />
-      <div className="flex justify-center items-stretch mt-56 ml-32 mr-36 gap-48 p-8">
+      <div className="lg:flex justify-center items-stretch  lg:ml-32 ml-8 mr-36 gap-48 p-8">
         <div className="flex flex-col justify-between">
           <h1 className="font-[500] opacity-65 text-xl">About Us</h1>
           <button className="relative flex items-center justify-between px-6 py-4 w-64 rounded-2xl bg-gradient-to-r from-[#D3BD00] from-10% via-[#F27405] to-[#5FB083] shadow-lg text-white font-medium backdrop-blur-4xl bg-opacity-50 border border-gray-500">
@@ -21,7 +21,7 @@ const about = () => {
           <h1 className="max-w-[350px] text-3xl font-[700]">
             Payment Pathways, built for you
           </h1>
-          <p className="opacity-50 text-lg">
+          <p className="opacity-50 w-full text-lg">
             Transalliance Group. Money Out and Money In solutions give our
             customers the ability to complete cross-border, multi-currency
             transactions securely and at speed. And with a single provider for
