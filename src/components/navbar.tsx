@@ -46,8 +46,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`lg:fixed top-0 w-full max-w-screen-2xl border text-white lg:border-none my-gradient newNav px-8 lg:px-[8rem] new_ff z-50 transition-all duration-300 ease-linear overflow-hidden bg-transparent ${
-        hasShadow ? "shadow-md bg-white" : ""
+      className={`lg:fixed top-0 w-full max-w-screen-2xl text-white  my-gradient newNav px-8 lg:px-[8rem] new_ff z-50 transition-all duration-300 ease-linear overflow-hidden bg-transparent ${
+        hasShadow ? "shadow-md bg-white" : "text-white"
       }`}
       style={{
         height: height,
@@ -60,7 +60,7 @@ const Navbar = () => {
           <img src={newLogo} alt="app_logo" title="VendStash" />
         </div>
 
-        <div className="flex gap-5">
+        <div className="flex gap-5 text-white">
           <div className="hidden lg:flex items-center gap-10">
             {routes.map((route) => (
               <Link to={route.href} key={route.name}>
@@ -68,10 +68,10 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          <div className="lg:flex items-center gap-10 font-medium hidden">
+          <div className="lg:flex items-center text-white gap-10 font-medium hidden">
             <Link
-              to="/signup"
-              className="bg-[#5BFB94] justify-center flex items-center gap-2 px-3 py-4 text-[#000] rounded-lg w-full whitespace-nowrap text-sm"
+              to="/#signup"
+              className="bg-[#5BFB94] justify-center flex items-center gap-2 px-3 py-4  rounded-lg w-full whitespace-nowrap text-sm"
             >
               Get Started
               <Icon name="getStartedIcon" />
@@ -95,20 +95,9 @@ const Navbar = () => {
             className="flex items-center justify-between"
             onClick={() => setHeight("80px")}
           >
-            <p className="text-[#1D2939] font-semibold text-lg">{route.name}</p>
+            <p className="font-semibold text-lg">{route.name}</p>
           </Link>
         ))}
-      </div>
-
-      <div className="absolute w-full left-0 flex flex-col gap-4 p-8">
-        <Link
-          to="/signup"
-          onClick={() => setHeight("80px")}
-          className="bg-[#5BFB94] w-full h-[45px] justify-center flex items-center gap-2 px-2 py-1 text-[#F9FAFB] rounded-lg"
-        >
-          Get Started
-          <Icon name="getStartedIcon" />
-        </Link>
       </div>
     </nav>
   );

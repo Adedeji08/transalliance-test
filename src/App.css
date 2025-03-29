@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gayathri:wght@100;400;700&display=swap");
 
 
-.my-gradient {
-  background: rgb(60, 59, 50);
+/* .my-gradient {
+    background: rgb(222, 252, 123);
   background: -moz-linear-gradient(
     108deg,
     rgba(60, 59, 50, 1) 14%,
@@ -25,4 +25,30 @@
     rgba(67, 49, 50, 1) 89%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3c3b32",endColorstr="#433132",GradientType=1);
+} */
+
+.my-gradient {
+  background: rgb(222, 252, 123);
+  background: -moz-linear-gradient(
+    108deg,
+    rgba(18, 32, 56, 1) 23%,
+    rgba(18, 32, 56, 1) 23%,
+    rgba(18, 32, 56, 1) 86%,
+    rgba(18, 32, 56, 1) 23%,
+  );
+  background: -webkit-linear-gradient(
+    108deg,
+    rgba(18, 32, 56, 1) 23%,
+    rgba(18, 32, 56, 1) 23%,
+    rgba(18, 32, 56, 1) 86%,
+    rgba(91, 251, 148, 1) 2%
+  );
+  background: linear-gradient(
+    108deg,
+    rgba(222, 252, 123, 1) -3%,
+    rgba(18, 32, 56, 1) 23%,
+    rgba(18, 32, 56, 1) 86%,
+    rgba(91, 251, 148, 1) 150%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#DEFC7B",endColorstr="#5BFB94",GradientType=1);
 }

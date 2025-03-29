@@ -9,8 +9,8 @@ const grid = () => {
   return (
     <div className="relative lg:grid lg:grid-col-3 w-full  justify-center items-center gap-12 py-12 mx-48">
       {/* SEPA Instant, SEPA & SWIFT */}
-      <div className="relative col-span-1 mt-4 lg:w-48 lg:h-48 border-2 lg:mt-0  rounded-lg lg:-ml-20">
-        <img className="rounded-lg" src={gridImg1} alt="" />
+      <div className="relative col-span-1 mt-4 lg:w-48 lg:h-48 border-2 lg:mt-0 w-fit  rounded-lg lg:-ml-20">
+        <img className="rounded-lg w-[300px]" src={gridImg1} alt="" />
         <span className="absolute bg-white/70 w-[90%] -bottom-7 left-2 px-1 py-2 rounded-xl text-[12px] font-semibold">
           SEPA Instant, SEPA & SWIFT
         </span>
