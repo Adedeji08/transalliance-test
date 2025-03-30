@@ -35,7 +35,7 @@ const Hero = () => {
           src={Laptop}
           alt="LaptopPhoto"
         />
-        <div className="border-2 rounded-lg bg-slate-50 px-4 py-2 absolute top-8 lg:-left-16 font-dmSans">
+        <div className="border-2 rounded-lg bg-slate-50 px-4 py-2 text-[#122038] absolute top-8 lg:-left-16 font-dmSans">
           <span>24/7, 365 transaction tracking</span>
         </div>
       </div>
