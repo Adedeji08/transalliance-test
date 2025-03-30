@@ -1,5 +1,5 @@
 import React from 'react';
-import TransalliancePages from './components/page';
+import TransalliancePages from './pages';
 import './App.css';
 import Navbar from './components/navbar';
 
