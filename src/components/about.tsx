@@ -5,7 +5,7 @@ import Grid from "./grid";
 
 const about = () => {
   return (
-    <section className="flex justify-center lg:mt-32 mt-[33rem] items-center flex-col">
+    <section className="flex justify-center ml-5 lg:mt-32 mt-[33rem] items-center flex-col">
       <Partner />
       <div className="lg:flex justify-center items-stretch  lg:ml-32 ml-8 mr-36 gap-48 p-8">
         <div className="flex flex-col justify-between">
